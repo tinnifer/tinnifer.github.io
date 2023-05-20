@@ -347,7 +347,7 @@
 
 			if (!this.curFolder) {
 				buf += '<h2>Hi</h2>';
-				buf += '<p>To fuse a Pokemon in the Teambuilder, append a / in the Pokemon species input field, and either type in the second fusion component, or pick one from the list.</p><p>Search results marked with &sup1; will have a custom sprite, whereas &sup2; means the opposite fusion has a custom sprite. Enjoy!</p>';				
+				buf += '<p>To fuse a Pokemon in the Teambuilder, append a / to the Pokemon species in the relevant input field, and either type in the second fusion component, or pick one from the list.</p><p>Search results marked with &sup1; will have a custom sprite, whereas &sup2; means the opposite fusion has a custom sprite. Enjoy!</p>';				
 				buf += '<h2>All teams <small style="font-weight: normal">(' + teams.length + ')</small></h2>';
 			} else {
 				if (this.curFolder.slice(-1) === '/') {
